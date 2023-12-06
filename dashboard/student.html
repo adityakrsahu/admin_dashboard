@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body onload="show()">
+    <aside>
+        <ul>
+            <li><img class="i" width="100px" src="https://yt3.ggpht.com/K1uwWGsfexKaxnW_SQ_efI0e1XfJQ3OiXa8y6IeNgNmrI_Ohe4YgPErYkOgcERlEkKfDDMJwlw=s108-c-k-c0x00ffffff-no-rj"></li>
+            <li><a href="./index.html">Dashboard</a></li>
+            <li><a href="./insert.html">Insert</a></li>
+            <li><a href="./Analayatics.html">Analayatics</a></li>
+            <li><a href="./student.html">Student</a></li>
+            <li><a href="./Teachers.html">Teachers</a></li>
+            <li><a href="./Record.html">Record</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="">Settings</a></li>
+        </ul>
+    </aside>
+    <center>
+        <div id="divtop">
+            Student Dashboard
+        </div>
+    </center>
+    <div class="rec">
+        <select id="fillselect">
+            <option value="nothong">Choose your filter</option>
+            <option value="name">Search by Name</option>
+            <option value="email">Search by Email</option>
+            <option value="mobile">Search by Mobile</option>
+            <option value="address">Search by Address</option>
+            <option value="password">Search by Password</option>
+        </select>
+        <input type="text" id="fillname" placeholder="search">
+        <button onclick="fil()">search</button>
+        <table id="filtering"></table>
+    </div>
+    <div>
+        <table>
+            <td width="30px">Id</td>
+            <td  width="200px">Name</td>
+            <td  width="200px">Email</td>
+            <td  width="150px">Mobile</td>
+            <td  width="150px">Address</td>
+            <td  width="150px">Password</td>
+            <td  width="150px">Teachers</td>
+        </table>
+    </div>
+    <table id="show"></table>
+    <script src="./student.js"></script>
+    <script src="./filter.js"></script>
+    <!-- <script src="./Analayatics.js"></script> -->
+</body>
+</html>
+

@@ -1,0 +1,163 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "teachers": [
+    {
+      "name": "adtya kumar",
+      "email": "adityakr2019@gmail.com",
+      "mobile": "9065845323",
+      "password": "asdsdf@",
+      "cpassword": "asdsdf@",
+      "address": "samastipur",
+      "role": "teachers",
+      "id": 3
+    },
+    {
+      "name": "aditya sahu",
+      "email": "adityakr2019@gmail.com",
+      "mobile": "9065845323",
+      "password": "asdsdf@",
+      "cpassword": "asdsdf@",
+      "address": "samastipur",
+      "role": "teachers",
+      "id": 4
+    },
+    {
+      "name": "ankit kumar sahu",
+      "email": "adityakr2019@gmail.com",
+      "mobile": "9065845323",
+      "password": "55",
+      "cpassword": "55",
+      "address": "bihar",
+      "role": "teachers",
+      "id": 5
+    },
+    {
+      "name": "aditya kumar sahu",
+      "email": "adityakr2019@gmail.com",
+      "mobile": "8873638109",
+      "password": "5512",
+      "cpassword": "5512",
+      "address": "bihar",
+      "role": "teachers",
+      "id": 6
+    },
+    {
+      "name": "sahu asitya",
+      "email": "adityakr2019@gamil.com",
+      "mobile": "8873638109",
+      "password": "asdsdf@",
+      "cpassword": "asdsdf@",
+      "address": "samastipur",
+      "role": "teachers",
+      "id": 7
+    },
+    {
+      "name": "adtya kumar",
+      "email": "adityakr2019@gmail.com",
+      "mobile": "8873638109",
+      "password": "asdsdf@",
+      "cpassword": "asdsdf@",
+      "address": "chakhaji",
+      "role": "teachers",
+      "id": 8
+    },
+    {
+      "name": "aditya kumar",
+      "email": "",
+      "mobile": "8873638109",
+      "password": "1234",
+      "cpassword": "1234",
+      "address": "samastipur",
+      "role": "teachers",
+      "id": 9
+    },
+    {
+      "name": "ankit kumar",
+      "email": "adityakr2019@gamil.com",
+      "mobile": "8873638109",
+      "password": "455@",
+      "cpassword": "455@",
+      "address": "samastipur",
+      "role": "teachers",
+      "id": 10
+    }
+  ],
+  "student": [
+    {
+      "name": "adtya kumar",
+      "email": "adityakr2019@gmail.com",
+      "mobile": "8873638109",
+      "password": "asdsdf@",
+      "cpassword": "asdsdf@",
+      "address": "samastipur",
+      "role": "student",
+      "id": 3
+    },
+    {
+      "name": "aditya sahu",
+      "email": "adityakr2019@gmail.com",
+      "mobile": "8873638109",
+      "password": "ad4",
+      "cpassword": "ad4",
+      "address": "chakhai",
+      "role": "student",
+      "id": 4
+    },
+    {
+      "name": "ankit kumar",
+      "email": "adityakr2019@gmail.com",
+      "mobile": "9065845323",
+      "password": "55@",
+      "cpassword": "55@",
+      "address": "chakhaji",
+      "role": "student",
+      "id": 5
+    },
+    {
+      "name": "sahu asitya1",
+      "email": "adityakr2019@gamil.com",
+      "mobile": "8873638109",
+      "password": "asdsdf@",
+      "cpassword": "asdsdf@",
+      "address": "samastipur",
+      "role": "student",
+      "id": 6
+    },
+    {
+      "name": "adtya kumar",
+      "email": "adityakr2019@gmail.com",
+      "mobile": "8873638109",
+      "password": "455@",
+      "cpassword": "455@",
+      "address": "chakhaji",
+      "role": "student",
+      "id": 7
+    },
+    {
+      "name": "aditya sahu",
+      "email": "adityakr2019@gmail.com",
+      "mobile": "8873638109",
+      "password": "ad4",
+      "cpassword": "ad4",
+      "address": "bhopal",
+      "role": "student",
+      "id": 8
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    body{
+        background-color: chartreuse;
+    }
+    input[type="text"]{
+        margin: 8px;
+        padding: 13px;
+        width: 200px;
+        outline: none;
+    }
+    #ch{
+        margin: 8px;
+        padding: 13px;
+        width: 230px;
+        outline: none;
+    }
+    input:hover{
+        background-color: blue;
+        color: white;
+    }
+  
+    b{
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    .g{
+        margin-top: 20px;
+        padding: 5px;
+        width: 600px;
+        background-color: rgb(13, 174, 232);
+    }
+    .fo{
+        display: flex;
+        justify-content: center;
+    }
+    .gh{
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    button{
+        margin: 5px;
+        width: 100px;
+        height: 45px;
+        margin-left: 55px;
+    }
+    .reg{
+        width: 150px;
+        height: 50px;
+    }
+    #show1{
+        display: none;
+    }
+ 
+</style>
+<body>
+    <aside>
+        <ul>
+            <li><img class="i" width="100px" src="https://yt3.ggpht.com/K1uwWGsfexKaxnW_SQ_efI0e1XfJQ3OiXa8y6IeNgNmrI_Ohe4YgPErYkOgcERlEkKfDDMJwlw=s108-c-k-c0x00ffffff-no-rj"></li>
+            <li><a href="./index.html">Dashboard</a></li>
+            <li><a href="./insert.html">Insert</a></li>
+            <li><a href="./Analayatics.html">Analayatics</a></li>
+            <li><a href="./student.html">Student</a></li>
+            <li><a href="./Teachers.html">Teachers</a></li>
+            <li><a href="./Record.html">Record</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="">Settings</a></li>
+        </ul>
+    </aside>
+    <center>
+        <div id="divtop">
+            Registrion from
+        </div>
+    </center>
+        <div class="fo">
+            <div class="g">
+                <h1 style="margin-left: 55px;">Registrion from</h1>
+                    <div class="gh">
+                        <div>                           
+                            <b>name</b><br>
+                            <input type="text" placeholder="name" id="naam" ><br>                           
+                            <b>email</b><br>
+                            <input type="text" placeholder="email" id="email" ><br>                       
+                            <b>Moble no.</b><br>
+                            <input type="text" placeholder="number" id="num"><br>
+                            <b>Address</b><br>
+                            <input type="text" placeholder="Address" id="add"><br>
+                        </div>
+                        <div>
+                            <b>password</b><br>
+                            <input type="text" placeholder="password" id="pass"><br>
+                            <b>conform password</b><br>
+                            <input type="text" placeholder="conform password" id="cpass"><br>
+                            <b>Pin code</b><br>
+                            <input type="text" placeholder="Pin code" id="code"><br>
+                            <b>select</b><br>
+                            <select id="ch">
+                                <option>Choose your role</option>
+                                <option>teachers</option>
+                                <option>student</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="reg" onclick="show()"><b>Registrion</b></button>
+                    </div>            
+                </div>
+            </div>
+        <script src="./Analayatics.js"></script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    body{
+        background-color: aqua;
+    }
+    #blink{
+        font-size: 30px;
+        background-color: blue;
+    }
+    #blink1{
+        font-size: 30px;
+        background-color: rgb(255, 0, 0);
+        height: 50px;
+    }
+</style>
+<body onload="show()">
+    <aside>
+        <ul>
+            <li><img class="i" width="100px" src="https://yt3.ggpht.com/K1uwWGsfexKaxnW_SQ_efI0e1XfJQ3OiXa8y6IeNgNmrI_Ohe4YgPErYkOgcERlEkKfDDMJwlw=s108-c-k-c0x00ffffff-no-rj"></li>
+            <li><a href="./index.html">Dashboard</a></li>
+            <li><a href="./insert.html">Insert</a></li>
+            <li><a href="./Analayatics.html">Analayatics</a></li>
+            <li><a href="./student.html">Student</a></li>
+            <li><a href="./Teachers.html">Teachers</a></li>
+            <li><a href="./Record.html">Record</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="">Settings</a></li>
+        </ul>
+    </aside>
+    <center>
+        <div id="divtop">
+            About 
+        </div>
+    </center>
+    <center>
+    <div>
+        <div id="blink">Teachers</div>
+        <!-- <h2>Here's a basic outline to follow as you write your teaching letter <br> introduction, with examples included.</h2>
+    <b>Make an Introduction. State the reason why you're reaching out and <br>
+    express your knowledge and interest in the school. ...<br>
+    Highlight Your Skills and Education. ...<br>
+    Showcase Your Passion. ...</b>
+    </div> -->
+    </center>
+    <center>
+        <div id="blink1">Student</div>
+    </center>
+    <script>
+        let blink = document.getElementById('blink');
+        setInterval(function() {
+            blink.style.opacity = (blink.style.opacity == 0 ? 2 : 0);
+        }, 1500);
+        let blink1 = document.getElementById('blink1');
+        setInterval(function() {
+            blink1.style.opacity = (blink1.style.opacity == 0 ? 2 : 0);
+        }, 2000);
+    </script>
+
+</body>
+</html>
+

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    #show2{
+        display: none;
+        position: absolute;
+        margin-left: 430px;
+        margin-top: -140px;
+    }
+    input[type="text"]{
+        margin: 8px;
+        padding: 13px;
+        width: 200px;
+        outline: none;
+    }
+    #ch1{
+        margin: 8px;
+        padding: 13px;
+        width: 230px;
+        outline: none;
+    }
+    input:hover{
+        background-color: blue;
+        color: white;
+    }
+    b{
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    .g{
+        padding: 5px;
+        width: 600px;
+        background-color: rgb(13, 174, 232);
+    }
+    .fo{
+        display: flex;
+        justify-content: center;
+    }
+    .gh{
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    /*button{
+        margin: 5px;
+        width: 100px;
+        height: 45px;
+        margin-left: 55px;
+    } */
+    .reg{
+        width: 150px;
+        height: 50px;
+    }
+</style>
+<body onload="show1()">
+    <aside>
+        <ul>
+            <li><img class="i" width="100px" src="https://yt3.ggpht.com/K1uwWGsfexKaxnW_SQ_efI0e1XfJQ3OiXa8y6IeNgNmrI_Ohe4YgPErYkOgcERlEkKfDDMJwlw=s108-c-k-c0x00ffffff-no-rj"></li>
+            <li><a href="./index.html">Dashboard</a></li>
+            <li><a href="./insert.html">Insert</a></li>
+            <li><a href="./Analayatics.html">Analayatics</a></li>
+            <li><a href="./student.html">Student</a></li>
+            <li><a href="./Teachers.html">Teachers</a></li>
+            <li><a href="./Record.html">Record</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="">Settings</a></li>
+        </ul>
+    </aside>
+    <center>
+        <div id="divtop">
+            Admin 
+        </div>
+    </center>
+    <div class="rec">
+        <select id="fillselect">
+            <option value="nothong">Choose your filter</option>
+            <option value="name">Search by Name</option>
+            <option value="email">Search by Email</option>
+            <option value="mobile">Search by Mobile</option>
+            <option value="address">Search by Address</option>
+            <option value="password">Search by Password</option>
+        </select>
+        <input type="text" id="fillname" placeholder="search">
+        <button onclick="fil()">search</button>
+        <table id="filtering"></table>
+    </div> 
+    <div>
+        <table>
+            <td width="30px">Id</td>
+            <td  width="150px">Name</td>
+            <td  width="230px">Email</td>
+            <td  width="150px">Mobile</td>
+            <td  width="150px">Address</td>
+            <td  width="150px">Password</td>
+            <td  width="150px">Teachers</td>
+            <td  width="10px">Delete</td>
+            <td  width="10px">Update</td>
+            
+        </table>
+    </div>
+    <table id="show"></table>
+    <div id="show2" class="fo">
+        <div class="g" style="margin-top: -375px;">
+            <h1 style="margin-left: 55px;">Registrion from</h1>
+                <div class="gh">
+                    <div>                           
+                        <b>name</b><br>
+                        <input type="text" placeholder="name" id="naam1" ><br>                           
+                        <b>email</b><br>
+                        <input type="text" placeholder="email" id="email1" ><br>                       
+                        <b>Moble no.</b><br>
+                        <input type="text" placeholder="number" id="num1"><br>
+                        <b>Address</b><br>
+                        <input type="text" placeholder="Address" id="add1"><br>
+                    </div>
+                    <div>
+                        <b>password</b><br>
+                        <input type="text" placeholder="password" id="pass1"><br>
+                        <b>conform password</b><br>
+                        <input type="text" placeholder="conform password" id="cpass1"><br>
+                        <b>Pin code</b><br>
+                        <input type="text" placeholder="Pin code" id="code"><br>
+                        <b>select</b><br>
+                        <select id="ch1">
+                            <option>Choose your role</option>
+                            <option>teachers</option>
+                            <option>student</option>
+                        </select>
+                    </div>
+                </div>
+                <button style="margin-left: 55px;" class="reg" onclick="update()"><b>Registrion</b></button>
+                </div>        
+            </div>
+        </div>   
+        <script src="./filter.js"></script>
+    <script src="./Analayatics.js"></script>   
+</body>
+</html>
